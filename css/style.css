@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-image: url(../image/Banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0%;
+    background-color: #008ed6;
+    transition: .5s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link::after{
+    content:'';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0%;
+    background-color: #008ed6;
+    transition: .5s all ease-in-out;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0; 
+    padding-left: 0; 
+    margin: 0 10px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+ }
+ .navbar-light .navbar-nav .nav-link:hover::after {
+    background-color:  #008ed6;
+    width: 45%;
+    
+ }
+ .navbar-light .navbar-nav .nav-link:hover::before {
+    background-color:  #008ed6;
+  width: 45%;
+    
+ }
+ .header-content{
+
+ }
+ .header-content h5{
+     
+color: #008ed6;
+     
+font-size: 16px;
+}
+.header-content h1{
+     
+color: white;
+     
+font-size: 45px;
+}
+.header-content p{
+     
+color: #aba7a7;
+}
+.hg{
+    min-height: 99vh;
+
+}
+.download, .view{
+
+border: 1px solid;
+
+color: #d0d0d0;
+
+font-size: 14px;
+
+text-transform: uppercase;
+}
+.View{
+
+    border: 1px solid;
+    
+    color: #d0d0d0;
+    
+    font-size: 14px;
+    
+    text-transform: uppercase;
+    }
+.View:hover, .btn-features{
+        background-color: #008ed6;
+        border: 1px solid #008ed6;
+        color: white;
+    }
+.download:hover, .btn-download{
+        background-color: #008ed6;
+        border: 1px solid #008ed6;
+        color: white;
+    }
+    .feature{
+
+    }
+    .heading{
+
+padding-top: 30px;
+
+}
+    .heading span,.heading_two span{
+
+margin-top: 5;
+
+text-transform: uppercase;
+
+color: #008ecb;
+
+margin: 0;
+
+font-size: 16px;
+
+text-transform: capitalize;
+
+/* margin-top: 50px; */
+
+/* padding-top: 50px; */
+}
+.heading h1{
+
+text-transform: capitalize;
+
+font-size: 35px;
+
+margin-top: 0;
+
+padding: 10px 0;
+
+position: relative;
+
+margin-bottom: 50px;
+}
+.heading h1::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0px;
+    background: rgb(0, 142, 203);
+    left: 44%;
+    bottom: 0;
+    /*transform: translateX(-49%);*/
+    transition: .4s all ease-in-out;
+}
+.heading h1::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0px;
+    background: rgb(0, 142, 203);
+    bottom: 0;
+    right: 44%;
+   /* transform: translateX(44%);*/
+    transition: .4s all ease-in-out;
+}
+
+.feature:hover .heading h1::after{
+    width: 30px;
+
+}
+.feature:hover .heading h1::before{
+    width: 30px;
+
+}
+.feature-content{
+
+}
+
+.feature-content h1,.heading_two h1{
+    font-size: 30px;
+    text-transform: capitalize;
+    
+}
+.heading_two{
+
+}
+.heading_two span{
+    
+}
+.heading_two: :last-child{
+    
+}
+.heading_two h1{
+    position: relative;
+    padding: 10px 0;
+    
+}
+.heading_two h1::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0px;
+    background-color: #008ecb;
+    transition: .4s all ease-in-out;
+}
+.heading_two h1::after{
+    content: '';
+    position: absolute;
+    right: 88%;
+    bottom: 0;
+    height: 3px;
+    width: 0px;
+    background-color: #008ecb;
+    transition: .4s all ease-in-out;
+}
+.device{
+
+}
+.device:hover .heading_two h1::after{
+    width: 30px;
+
+}
+.device:hover .heading_two h1::before{
+    width: 30px;
+
+}
+.heading_two ul{
+    list-style: none;
+    
+}
+.heading_two ul li{
+    margin-right: 5px 0;
+
+}
+.heading_two ul li i{
+    color: #008ecb;
+    margin-right: 10px;
+
+}
+.customize:hover .heading_two h1::before{
+    width: 30px;
+
+}
+.customize:hover .heading_two h1::after{
+    width: 30px;
+
+}
+.customize{
+    background-color: #f2f2f2;
+}
+.testimonial{
+background-image: url(../image/2nd-banner.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+}
+.testimonial:hover .heading h1::before{
+    width: 30px;
+
+}
+.testimonial:hover .heading h1::after{
+    width: 30px;
+
+}
+.testimonial_content{
+
+}
+.testimonial_content h5{
+
+}
+.testimonial_content h6{
+
+}
+.testimonial_content p{
+
+}
+.client{
+
+}
+.client-details{
+
+}
+.like{
+
+background: black;
+
+color: white;
+
+/* font-size: 30px; */
+}
+.like h1{
+
+font-size: 23px;
+
+font-weight: 300;
+}
+.like h1 span{
+    
+font-weight: 700;
+}
+.btn-primary{
+
+}
+.btn-info{
+
+}
+.price:hover h1{
+    background-color: #008ed6;
+    color: white;
+   
+}
+.price{
+
+border: 1px solid #b7b4b4;
+
+text-align: center;
+
+padding: 30px 0;
+
+/* margin: 0 15px; */
+}
+.price:hover h4{
+    color: #008ed6;
+}
+.price:hover .btn-order{
+    background-color: #008ed6;
+    color: white;
+}
+
+.price h4{
+
+font-weight: 600;
+
+text-transform: uppercase;
+
+padding: 30px;
+
+border-bottom: 1px solid #b7b4b4;
+}
+.price h1{
+
+font-size: 50px;
+
+font-weight: 700;
+
+border-bottom: 1px solid #b7b4b4;
+
+padding: 15px 0;
+}
+.price h6{
+
+
+}
+.price p{
+
+margin: 15px 15px;
+}
+.btn-order{border: 1px solid #b7b4b4;text-transform: uppercase;font-size: 18px;}
+.contact{
+    background-color: #f2f2f2;
+}
